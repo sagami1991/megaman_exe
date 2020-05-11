@@ -1,0 +1,14 @@
+{
+	"browser": true,
+	"devel": true,
+	"node": true,
+	"indent": 4,
+    "sub" : true,
+    "undef" : true,
+    "globals": {
+        "document": false,
+        "$": false,
+        "window": false
+    }
+}
+

@@ -1,0 +1,124 @@
+@font-face
+{
+font-family: mplus-1p-regular;
+src: url('uzura.eot'); /* IE9 Compat Modes */
+src: url('uzura.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	 url('uzura.ttf') format("truetype");
+}
+
+html, body {
+	position:relative;
+	height: 100%;
+/*	overflow: hidden;*/
+	background-color:#efefef;
+	font-family: mplus-1p-regular;
+	text-align: center;
+	color: #4b4b4b;
+}
+
+canvas {
+    border: 1px #dcdcdc solid;
+}
+
+div.rank{
+    height: 300px;
+    overflow: scroll;
+}
+div.page_title{
+    color: #4b4b4b;
+    font-weight:bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.rankig{
+	position:absolute;
+	top: 100px; left: 400px;
+	display :none;
+}
+div{
+    color: #4b4b4b;
+    margin-top: 10px;
+
+}
+/*-----アンドロイド用操作ボタン-----*/
+div#android-button{
+    width: 850px;
+    height: 350px;
+    margin: auto;
+    position: relative;height: 350px;
+    margin: auto;
+    position: relative;
+}
+
+div#android-button div{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    line-height: 100px;
+    padding: 9px;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+div#android-button #up{
+    left: 200px;
+}
+
+div#android-button #right{
+    top: 110px;
+    left: 310px;
+}
+
+div#android-button #down{
+    left: 200px;
+    top: 220px;
+}
+
+div#android-button #left{
+    top: 110px;
+    left: 90px;
+}
+
+div#android-button #atack{
+    top: 110px;
+    left: 600px;
+}
+/*------------------------*/
+
+/*-----ランキングテーブル-----*/
+table {
+	margin:auto;
+	margin-top: 10px;
+	border-spacing: 0;
+	border: #cdcdcd 1px solid;
+	border-width: 1px 0 0 1px;
+}
+table th {
+	background-color: #99bfe6;
+	font-weight:normal;
+}
+table td,th {
+	background-color: white;
+    border: #cdcdcd 1px solid;
+    border-width: 0 1px 1px 0;
+}
+/*------------------------*/
+
+
+/*--------セーブ用ボタン----------*/
+.button  {
+	padding:5px;
+	color : #f8f8f8;
+	border-radius: 6px;
+	background-color: #8b8b8b;
+	cursor: pointer;
+}
+
+.button:hover  {
+  background-color: #929292;
+}
+
